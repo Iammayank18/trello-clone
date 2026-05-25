@@ -8,8 +8,8 @@ export type Task = {
   description: string
   priority: "low" | "medium" | "high"
   status: "todo" | "in-progress" | "done"
-  createdAt: string
-  updatedAt: string
+  createdAt?: string
+  updatedAt?: string
 }
 
 export type CreateTaskInput = {
